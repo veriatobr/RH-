@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+#page{
+    width: 35%;
+    height: 100vh;
+}
+
+
+.backgroundlogin {
+    background-image: url(./img/desktoprh+comfundobranco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page > div {
+    padding: 4rem 11.2rem;
+}
+
+.main-login{
+    margin-top:11.4rem ;
+}
+
+.form-login{
+    margin-top: 4rem;
+}
+
+form input {
+    width: 100%;
+    background: rgb(227, 246, 255);
+    border: 0.1rem solid rgb(24, 5, 109);
+    border-radius: 0.4rem;
+    padding: 1.6rem 1.2rem;
+    margin-top: 0.8rem;
+}
+
+form .input-wrapper + .input-wrapper {
+    margin-top: 1.6rem;
+}
+
+.label-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    all:unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 2.4rem;
+    background: rgb(0,177,240);
+    border-radius: 4px;
+    width: 100%;
+    font-weight: bold;
+    line-height: 24px;
+    color: aliceblue;
+    margin-block: 3.2rem;
+}
+
+form button:active,
+form button:focus{
+    outline: 2px solid blue;
+    border-radius: 0.2rem;
+}
+form button:hover{
+    background: rgb(2, 121, 165);
+}
+
+
+.loginformfuncionario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    width: 20%;
+    height: 60%;
+}
+
+.footerpagelogin{
+position: absolute;
+bottom: 0%;
+width: 100%;
+}
+
+
+
+.footer-text{
+text-align: center;
+color: rgb(2, 31, 31);
+}
+
